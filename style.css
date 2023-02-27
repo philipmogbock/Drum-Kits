@@ -1,0 +1,59 @@
+body{
+    margin: 0; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    border: 5px solid blue;  
+    background-color: pink;
+}
+
+h1{
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 4px rgba(0,0,0.3);
+    /* text always on same line  */
+    white-space: nowrap;
+}
+
+.btn{
+    padding: 30px 70px;
+    margin: 5px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    box-shadow:0 4px 8px rgba(0,0,0.3) ;
+    /* prevent variation in sizes based on text length  */
+    min-width:200px ;
+    background-image: url("ass.png");
+    background-size: cover;
+    color: white;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    text-shadow:2px 2px 4px rgba(0,0,0.3);
+    cursor: pointer;
+
+
+}
+
+.btn:hover{
+    filter: brightness(0.9);
+    color: pink;
+
+}
+
+.btn:active{
+    background-size: 105%;
+}
+
+
+
+
+
+
+
